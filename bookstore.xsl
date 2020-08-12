@@ -24,28 +24,28 @@
                             <td bgcolor="magneta" style="text-transform: uppercase; font-weight: bold;">
                                 <xsl:value-of select="author" />
                             </td>
-                            <td>
+                            <td bgcolor="yellow">
                                 <xsl:value-of select="genre"/>
                             </td>
-                            <td>
+                           <td bgcolor="blue">
                                 <xsl:value-of select="copyright-year"/>
                             </td>
-                            <td>
+                            <td bgcolor="pink">
                                 <xsl:value-of select="book-edition"/>
                             </td>
-                            <td>
+                            <td bgcolor="cyan">
                                 <xsl:value-of select="isbn"/>
                             </td>
-                            <td>
+                           <td bgcolor="green">
                                 <xsl:value-of select="publisher"/>
                             </td>
-                            <td>
+                            <td bgcolor="orange">
                                 <xsl:value-of select="price"/>
                             </td>
                         </tr>
                     </xsl:for-each>
                 </table>
-               
+                
             </body>
         </html>
     </xsl:template>
