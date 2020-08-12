@@ -45,8 +45,7 @@
                         </tr>
                     </xsl:for-each>
                 </table>
-                <h4>Name: Mohammed Rayyan</h4>
-                <h4>Reg. No.: RA1711003011306</h4>
+               
             </body>
         </html>
     </xsl:template>
